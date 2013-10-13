@@ -1,2 +1,3 @@
 [Adblock Plus 2.0]
 cloud.feedly.com##div#feedlyProBar
+cloud.feedly.com##div#profeature

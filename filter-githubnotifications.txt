@@ -1,1 +1,2 @@
+[Adblock Plus 2.0]
 github.com##a.notification-indicator

@@ -1,4 +1,4 @@
-# Adblock Filters
+# Adblock Plus Filters
 
 These are my adblock filters
 
@@ -15,6 +15,6 @@ https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
 
 Make sure you disable:
 
-![Allow some non-intrusive advertising](http://d.pr/i/o5KZ+)
+![Allow some non-intrusive advertising](http://d.pr/i/oFw8+)
 
 Otherwise these won't work!

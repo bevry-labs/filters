@@ -11,6 +11,9 @@ https://gist.github.com/balupton/6960605/raw/filter-githubnotifications.txt
 
 Google Ads
 https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
+
+Facebook Drama
+https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
 ```
 
 Make sure you disable:

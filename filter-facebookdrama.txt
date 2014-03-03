@@ -1,4 +1,4 @@
 [Adblock Plus 2.0]
-facebook.com##div#contentArea
+facebook.com##div#substream_0
 facebook.com##div#pagelet_trending_tags_and_topics
 facebook.com##span.uiSideNavCount

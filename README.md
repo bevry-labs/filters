@@ -14,6 +14,9 @@ https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
 
 Facebook Drama
 https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
+
+Twitter Drama
+https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
 ```
 
 Make sure you disable:

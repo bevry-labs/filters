@@ -3,3 +3,4 @@ facebook.com##div#stream_pagelet
 facebook.com##div#pagelet_trending_tags_and_topics
 facebook.com##span.uiSideNavCount
 facebook.com##div.home_right_column
+facebook.com##div#pagelet_sidebar

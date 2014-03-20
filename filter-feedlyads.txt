@@ -1,3 +1,5 @@
 [Adblock Plus 2.0]
-cloud.feedly.com##div#feedlyProBar
-cloud.feedly.com##div.profeature
+feedly.com##div#feedlyProBar
+feedly.com##div.profeature
+feedly.com##div#tipsModule_part
+feedly.com##div.proShowcase

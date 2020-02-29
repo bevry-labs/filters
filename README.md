@@ -3,6 +3,9 @@
 These are my adblock filters
 
 ```
+Social Vanity
+https://gist.githubusercontent.com/balupton/6960605/raw/b641645a90606cf2d6d3e719eb1b7a6cbeeb7f14/filter-socialvanity.txt
+
 Feedly Ads
 https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
 

@@ -19,8 +19,4 @@ Twitter Drama
 https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
 ```
 
-Make sure you disable:
-
-![Allow some non-intrusive advertising](http://d.pr/i/oFw8+)
-
-Otherwise these won't work!
+Make sure you disable "Allow some non-intrusive advertising" otherwise these won't work!

@@ -1,17 +1,17 @@
 ! Title: AdGuard Agency Filter
-! Description: Disables websites, services, and companies whose business is to manipulate your attention
-! Version: 1.0.2
+! Description: Disables DNS for websites, services, and companies whose business is to manipulate your attention
+! Version: 1.0.3
 ! TimeUpdated: 2020-06-06T01:35:59Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
-||google.com^$empty
-||google.com.au^$empty
-||facebook.com^$empty
-||instagram.com^$empty
-||reddit.com^$empty
-||bitchute.com^$empty
-||youtube.com^$empty
-||twitter.com^$empty
-||producthunt.com^$empty
-||news.ycombinator.com^$empty
+||google.com^
+||google.com.au^
+||facebook.com^
+||instagram.com^
+||reddit.com^
+||bitchute.com^
+||youtube.com^
+||twitter.com^
+||producthunt.com^
+||news.ycombinator.com^

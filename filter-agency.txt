@@ -1,0 +1,16 @@
+! Title: AdGuard Agency Filter
+! Description: Disables websites, services, and companies whose business is to manipulate your attention
+! Version: 1.0.0
+! TimeUpdated: 2020-06-06T01:31:26Z
+! Expires: 4 days (update frequency)
+! Homepage: https://gist.github.com/balupton/6960605
+! License: http://creativecommons.org/licenses/by-sa/3.0/
+||google.*^
+||facebook.com^
+||instagram.com^
+||reddit.com^
+||bitchute.com^
+||youtube.com^
+||twitter.com^
+||producthunt.com^
+||news.ycombinator.com^

@@ -3,6 +3,9 @@
 These are my adblock filters
 
 ```
+Agency
+https://gist.github.com/balupton/6960605/raw/filter-agency.txt
+
 Social Vanity
 https://gist.github.com/balupton/6960605/raw/filter-socialvanity.txt
 

@@ -2,7 +2,7 @@
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, and YouTube
 ! Version: 1.0.0
 ! TimeUpdated: 2020-02-28T21:03:55+03:00
-! Expires: 4 days (update frequency)
+! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child

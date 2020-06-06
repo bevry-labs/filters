@@ -1,7 +1,7 @@
 ! Title: AdGuard Agency Filter
 ! Description: Disables DNS for websites, services, and companies whose business is attention
-! Version: 1.0.4
-! TimeUpdated: 2020-06-06T02:05:21Z
+! Version: 1.1.0
+! TimeUpdated: 2020-06-06T07:19:13Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -44,6 +44,7 @@
 ||electoral-vote.com^
 ||engadget.com^
 ||facebook.com^
+||feedly.com^
 ||firstlook.org^
 ||fivethirtyeight.com^
 ||fox.com^

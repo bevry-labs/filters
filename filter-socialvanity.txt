@@ -1,7 +1,7 @@
 ! Title: AdGuard Social Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.2.1
-! TimeUpdated: 2020-06-19T11:46:38Z
+! Version: 1.2.2
+! TimeUpdated: 2020-06-19T11:54:31Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/

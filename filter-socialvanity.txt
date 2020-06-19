@@ -1,5 +1,5 @@
 ! Title: AdGuard Social Vanity Filter
-! Description: Disables vanity and addictive elements on Instagram, Twitter, and YouTube
+! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
 ! Version: 1.0.1
 ! TimeUpdated: 2020-06-06T01:40:20Z
 ! Expires: 1 hour (update frequency)
@@ -34,3 +34,6 @@ instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:
 instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s.Hz2lF > div.MWDvN.nfCOa > div.ctQZg:last-child > div._47KiJ > div.Fifk5:nth-child(4)
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
+! Redirect from the Medium homepage to the Medium network stream
+! The Medium homepage is Medium claiming your agency; Your network stream is your claiming it
+medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.com/stream/network" };

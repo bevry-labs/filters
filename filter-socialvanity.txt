@@ -1,7 +1,7 @@
 ! Title: AdGuard Social Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.2.0
-! TimeUpdated: 2020-06-19T10:32:02Z
+! Version: 1.2.1
+! TimeUpdated: 2020-06-19T11:46:38Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -12,7 +12,7 @@ medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.
 
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
 ! Element blocking is too difficult, as they obfuscate element names
-youtube.com#%#if ( location.pathname === "/" ) { location.href = "https://www.youtube.com/playlist?list=WL" };
+youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
 
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
 ! Element blocking is too difficult, as they obfuscate element names

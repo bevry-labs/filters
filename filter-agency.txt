@@ -12,7 +12,6 @@
 ||aljazeera.com^
 ||bbc.co.uk^
 ||bbc.com^
-||bbc.com^
 ||beppegrillo.it^
 ||bitchute.com^
 ||blogspot.com^

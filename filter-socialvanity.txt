@@ -13,6 +13,9 @@ medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
 ! Element blocking is too difficult, as they obfuscate element names
 youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
+! Block home and trending sidebar links
+youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
+youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
 
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
 ! Element blocking is too difficult, as they obfuscate element names

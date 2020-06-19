@@ -7,12 +7,15 @@
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
 
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
+! Element blocking is too difficult, as they obfuscate element names
 medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.com/stream/network" };
 
-! Reclaim your agency, redirect the Youtube Homepage to your Watch Later
+! Reclaim your agency, redirect the Youtube homepage to your Watch Later
+! Element blocking is too difficult, as they obfuscate element names
 youtube.com#%#if ( location.pathname === "/" ) { location.href = "https://www.youtube.com/playlist?list=WL" };
 
-! Reclaim your agency, redirect the Twitter Homepage to your Messages
+! Reclaim your agency, redirect the Twitter homepage to your Messages
+! Element blocking is too difficult, as they obfuscate element names
 twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
 
 ! Remove various vanity elements and attengion grabbers from Instagram

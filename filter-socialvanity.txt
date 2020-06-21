@@ -21,6 +21,7 @@ youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-ren
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
 ! Element blocking is too difficult, as they obfuscate element names
 twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
+mobile.twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
 ! Hide any links to the Twitter homepage
 twitter.com##[href="/home"]
 mobile.twitter.com##[href="/home"]

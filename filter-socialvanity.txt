@@ -1,7 +1,7 @@
 ! Title: AdGuard Social Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.2.3
-! TimeUpdated: 2020-06-19T11:58:18Z
+! Version: 1.2.4
+! TimeUpdated: 2020-06-21T04:51:18Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -13,6 +13,7 @@ medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
 ! Element blocking is too difficult, as they obfuscate element names
 youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
+m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
 ! Block home and trending sidebar links
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
@@ -22,6 +23,7 @@ youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-ren
 twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
 ! Hide any links to the Twitter homepage
 twitter.com##[href="/home"]
+mobile.twitter.com##[href="/home"]
 
 ! Remove various vanity elements and attengion grabbers from Instagram
 instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path

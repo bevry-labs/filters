@@ -22,9 +22,7 @@ May or may not still work.
 
 - Facebook Drama: https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
 
-Twitter Drama
-https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
-```
+- Twitter Drama; https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
 
 ## Feedback
 

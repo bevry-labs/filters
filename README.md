@@ -1,14 +1,25 @@
 # Adblock Plus Filters
 
-These are my adblock filters
+## Actively Maintained
+
+Working for me each day.
 
 ```
 Agency
 https://gist.github.com/balupton/6960605/raw/filter-agency.txt
 
-Social Vanity
-https://gist.github.com/balupton/6960605/raw/filter-socialvanity.txt
+Vanity
+https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
 
+Activism
+https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
+```
+
+## Unused
+
+May or may not still work.
+
+``
 Feedly Ads
 https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
 
@@ -24,5 +35,9 @@ https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
 Twitter Drama
 https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
 ```
+
+## Feedback
+
+Post a comment if something doesn't work, or with your improvements.
 
 Make sure you disable "Allow some non-intrusive advertising" otherwise these won't work!

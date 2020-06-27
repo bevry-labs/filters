@@ -5,6 +5,7 @@
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
+
 ||538.com^
 ||abc.go.com^
 ||abcnews.com^

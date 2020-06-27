@@ -31,7 +31,7 @@ github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
 github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)
 github.com##aside[aria-label=Explore]
 
-! Remove various vanity elements and attengion grabbers from Instagram
+! Remove various vanity elements and attention grabbers from Instagram
 instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path
 instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2)
 instagram.com###react-root > section._9eogI.E3X2T > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:first-child

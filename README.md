@@ -1,6 +1,8 @@
-# Adblock Plus Filters
+# Adblock Filters
 
 ## Actively Maintained
+
+### Adguard Filters
 
 Working for me each day.
 
@@ -11,6 +13,8 @@ Working for me each day.
 - Activism: https://gist.github.com/balupton/6960605/raw/filter-activism.txt
 
 ## Unused
+
+### Adblock Plus Filters
 
 May or may not still work.
 

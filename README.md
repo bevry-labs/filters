@@ -12,7 +12,7 @@ Vanity
 https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
 
 Activism
-https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
+https://gist.github.com/balupton/6960605/raw/filter-activism.txt
 ```
 
 ## Unused

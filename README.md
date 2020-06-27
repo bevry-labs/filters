@@ -2,9 +2,9 @@
 
 ## Actively Maintained
 
-### Adguard Filters
-
 Working for me each day.
+
+### Adguard Filters
 
 - Agency: https://gist.github.com/balupton/6960605/raw/filter-agency.txt
 
@@ -14,9 +14,9 @@ Working for me each day.
 
 ## Unused
 
-### Adblock Plus Filters
-
 May or may not still work.
+
+### Adblock Plus Filters
 
 - Feedly Ads: https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
 

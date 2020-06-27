@@ -4,33 +4,23 @@
 
 Working for me each day.
 
-```
-Agency
-https://gist.github.com/balupton/6960605/raw/filter-agency.txt
+- Agency: https://gist.github.com/balupton/6960605/raw/filter-agency.txt
 
-Vanity
-https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
+- Vanity: https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
 
-Activism
-https://gist.github.com/balupton/6960605/raw/filter-activism.txt
-```
+- Activism: https://gist.github.com/balupton/6960605/raw/filter-activism.txt
 
 ## Unused
 
 May or may not still work.
 
-``
-Feedly Ads
-https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
+- Feedly Ads: https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
 
-GitHub Notifications
-https://gist.github.com/balupton/6960605/raw/filter-githubnotifications.txt
+- GitHub Notifications: https://gist.github.com/balupton/6960605/raw/filter-githubnotifications.txt
 
-Google Ads
-https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
+- Google Ads: https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
 
-Facebook Drama
-https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
+- Facebook Drama: https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
 
 Twitter Drama
 https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt

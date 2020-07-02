@@ -1,7 +1,7 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.4.0
-! TimeUpdated: 2020-07-02T05:34:50Z
+! Version: 1.5.0
+! TimeUpdated: 2020-07-02T05:37:46Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://gist.github.com/balupton/6960605
 ! License: http://creativecommons.org/licenses/by-sa/3.0/
@@ -20,6 +20,9 @@ youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-ren
 
 ! Reclaim your agency, hide YouTube comments (they are just noise/interference now, memetic viruses competing for proliferation)
 youtube.com##ytd-comments
+
+! Reclaim your agency, hide the YouTube sidebar (it's intent is to provide distactions that capitalise your attention)
+youtube.com###secondary
 
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
 ! Element blocking is too difficult, as they obfuscate element names

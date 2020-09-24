@@ -1,35 +1,34 @@
 # Adblock Filters
 
-## Actively Maintained
+## Active
 
-Working for me each day.
+> These I use each day, and are actively maintainemd.
 
-### Adguard Filters
+- [Activism](https://raw.githubusercontent.com/balupton/filters/master/filter-activism.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-activism.txt)
+- [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
+- [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-vanity.txt)
 
-- Agency: https://gist.github.com/balupton/6960605/raw/filter-agency.txt
+Please submit a pull request by using the edit links above. All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
 
-- Vanity: https://gist.github.com/balupton/6960605/raw/filter-vanity.txt
+If you don't trust me:
 
-- Activism: https://gist.github.com/balupton/6960605/raw/filter-activism.txt
+- [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) the repository, and replace `balupton` with your own username, however be sure to keep the changes in sync.
+- or replace `master` with the latest commit, to fix it to a particular version.
 
-## Unused
+## Inactive
 
-May or may not still work.
+> These filters I no longer care to maintain, as have no need for them.
 
-### Adblock Plus Filters
+Replaced by the [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) filter:
 
-- Feedly Ads: https://gist.github.com/balupton/6960605/raw/filter-feedlyads.txt
+- [GitHub Notifications](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-githubnotifications.txt)
 
-- GitHub Notifications: https://gist.github.com/balupton/6960605/raw/filter-githubnotifications.txt
+Replaced by [AdGuard](https://adguard.com):
 
-- Google Ads: https://gist.github.com/balupton/6960605/raw/filter-googleads.txt
+- [Feedly Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-activism.txt)
+- [Google Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-googleads.txt)
 
-- Facebook Drama: https://gist.github.com/balupton/6960605/raw/filter-facebookdrama.txt
+Replaced by not using them:
 
-- Twitter Drama; https://gist.github.com/balupton/6960605/raw/filter-twitterdrama.txt
-
-## Feedback
-
-Post a comment if something doesn't work, or with your improvements.
-
-Make sure you disable "Allow some non-intrusive advertising" otherwise these won't work!
+- [Facebook Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-facebookdrama.txt)
+- [Twitter Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-twitterdrama.txt)

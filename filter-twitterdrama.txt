@@ -1,9 +1,0 @@
-[Adblock Plus 2.0]
-twitter.com##div.module.Footer
-twitter.com##div.module.enhanced-media-thumbnails
-twitter.com##div.trends
-twitter.com##div.wrapper-discover
-twitter.com##div.wrapper-home
-twitter.com##div.wtf-module
-twitter.com##li#global-nav-home
-twitter.com##li.topics

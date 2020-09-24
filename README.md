@@ -8,7 +8,7 @@
 - [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
 - [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-vanity.txt)
 
-Please submit a pull request by using the edit links above. All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
+Please submit a pull request by using the edit links above. [AdGuard maintains this help document on the available syntax.](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters) All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
 
 If you don't trust me:
 

@@ -2,7 +2,7 @@
 
 ## Active
 
-> These I use each day, and are actively maintainemd.
+> These filters I use each day, and are actively maintained.
 
 - [Activism](https://raw.githubusercontent.com/balupton/filters/master/filter-activism.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-activism.txt)
 - [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
@@ -17,7 +17,7 @@ If you don't trust me:
 
 ## Inactive
 
-> These filters I no longer care to maintain, as have no need for them.
+> These filters I no longer care to maintain, as I have no need for them.
 
 Replaced by the [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) filter:
 

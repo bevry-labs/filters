@@ -1,7 +1,7 @@
 ! Title: Activism Filter
 ! Description: Reclaim your agency, block activism banners
-! Version: 1.1.1
-! TimeUpdated: 2020-06-27T00:28:42Z
+! Version: 1.2.0
+! TimeUpdated: 2020-09-24T05:01:31Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org

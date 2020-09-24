@@ -1,10 +1,10 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.5.0
-! TimeUpdated: 2020-07-02T05:37:46Z
+! Version: 1.2.1
+! TimeUpdated: 2020-09-24T05:05:02Z
 ! Expires: 1 hour (update frequency)
-! Homepage: https://gist.github.com/balupton/6960605
-! License: http://creativecommons.org/licenses/by-sa/3.0/
+! Homepage: https://github.com/balupton/filters
+! License: https://unlicense.org
 
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
 ! Element blocking is too difficult, as they obfuscate element names
@@ -12,8 +12,8 @@ medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.
 
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
 ! Element blocking is too difficult, as they obfuscate element names
-youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
-m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
+www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
+m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://m.youtube.com/playlist?list=WL" };
 ! Block home and trending sidebar links
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
 youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)

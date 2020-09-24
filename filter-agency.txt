@@ -1,7 +1,7 @@
-! Title: AdGuard Agency Filter
+! Title: Agency Filter
 ! Description: Disables DNS for websites, services, and companies whose business is attention
-! Version: 1.2.0
-! TimeUpdated: 2020-09-24T05:01:31Z
+! Version: 1.2.1
+! TimeUpdated: 2020-09-24T05:07:02Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org

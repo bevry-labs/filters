@@ -1,7 +1,0 @@
-[Adblock Plus 2.0]
-feedly.com##div#feedlyProBar
-feedly.com##div.profeature
-feedly.com##div#tipsModule_part
-feedly.com##div.proShowcase
-feedly.com##div#fixedProfile > div.button.primary.small
-feedly.com#?#div.entry:-abp-has(> div.CondensedToolbar > div.button-dropdown)

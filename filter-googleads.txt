@@ -1,6 +1,0 @@
-[Adblock Plus 2.0]
-google.com,google.com.au##div.gb_2a
-google.com,google.com.au##div#gbwa
-google.com,google.com.au##div.pmoabs
-google.com,google.com.au##div.gb_qa
-google.com,google.com.au##div.gb_mb

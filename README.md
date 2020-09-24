@@ -1,4 +1,4 @@
-# Adblock Filters
+# AdGuard Filters
 
 ## Active
 

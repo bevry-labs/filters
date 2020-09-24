@@ -1,16 +1,18 @@
 ! Title: Agency Filter
 ! Description: Disables DNS for websites, services, and companies whose business is attention
-! Version: 1.2.1
-! TimeUpdated: 2020-09-24T05:07:02Z
+! Version: 1.3.0
+! TimeUpdated: 2020-09-24T16:46:30Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
 
 ||538.com^
+||9to5mac.com^
 ||abc.go.com^
 ||abcnews.com^
 ||abcnews.go.com^
 ||aljazeera.com^
+||appleinsider.com^
 ||bbc.co.uk^
 ||bbc.com^
 ||beppegrillo.it^
@@ -62,6 +64,7 @@
 ||huffingtonpost.com^
 ||hulu.com^
 ||icanhascheezburger.com^
+||imore.com^
 ||independent.co.uk^
 ||indymedia.org^
 ||infowars.com^
@@ -70,6 +73,8 @@
 ||kottke.org^
 ||latimes.com^
 ||lifehacker.com^
+||macrumors.com^
+||macrumors.com^
 ||mashable.com^
 ||medium.com^
 ||mentalfloss.com^
@@ -88,6 +93,7 @@
 ||nydailynews.com^
 ||nypost.com^
 ||nytimes.com^
+||omgubuntu.co.uk^
 ||people.com^
 ||perezhilton.com^
 ||philo.com^
@@ -104,11 +110,13 @@
 ||rt.com^
 ||salon.com^
 ||sho.com^
+||sixcolors.com^
 ||slate.com^
 ||sling.com^
 ||spiegel.de^
 ||starz.com^
 ||talkingpointsmemo.com^
+||techcrunch.com^
 ||techcrunch.com^
 ||theblaze.com^
 ||thechive.com^

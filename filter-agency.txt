@@ -22,7 +22,6 @@
 ||boingboing.net^
 ||boredpanda.com^
 ||breitbart.com^
-||breitbart.com^
 ||brookings.edu^
 ||buzzfeed.com^
 ||cbs.com^
@@ -73,7 +72,6 @@
 ||kottke.org^
 ||latimes.com^
 ||lifehacker.com^
-||macrumors.com^
 ||macrumors.com^
 ||mashable.com^
 ||medium.com^

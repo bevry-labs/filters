@@ -1,7 +1,7 @@
 ! Title: Activism Filter
 ! Description: Reclaim your agency, block activism banners
-! Version: 1.2.1
-! TimeUpdated: 2020-09-24T05:19:42Z
+! Version: 1.2.2
+! TimeUpdated: 2020-10-29T23:25:34Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
@@ -9,7 +9,7 @@
 ! https://nodejs.org - blm
 ! https://undraw.co - blm
 ! https://www.microsoft.com/en-au/ - corona
-#%#document.addEventListener('DOMContentLoaded', () => { for ( let el of document.querySelectorAll('[href*="black-lives-matter"],[href*="blacklivesmatter"],[href*="blm"],[href*="covid"],[href*="corona"]') ) while ( true ) { el.remove(); el = el.parentNode; if ( el.childElementCount !== 1 ) break } })
+#%#document.addEventListener('DOMContentLoaded', () => { for ( let el of document.querySelectorAll('[href*="black-lives-matter"],[href*="blacklivesmatter"],[href*="blm"],[href*="covid"],[href*="corona"]') ) while ( true ) { const c = el; el = el.parentNode; c.remove(); if ( el.childElementCount ) break } })
 
 ! misc
 djangoproject.com##div#billboard

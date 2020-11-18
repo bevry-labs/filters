@@ -1,7 +1,7 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.3.0
-! TimeUpdated: 2020-10-15T19:36:35Z
+! Version: 1.4.0
+! TimeUpdated: 2020-11-18T15:29:54Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
@@ -9,6 +9,13 @@
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
 ! Element blocking is too difficult, as they obfuscate element names
 medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.com/stream/network" };
+
+! Reclaim your agency, block Twitter recommendations, trends, and suggestions
+|https://twitter.com/i/api/2/guide.json
+|https://twitter.com/i/api/1.1/users/recommendations.json
+
+! Reclaim your agency, redirect Twitter explore tab to Search tab
+twitter.com#%#if ( location.pathname === "/explore" ) { location.href = "https://twitter.com/search-advanced" };
 
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
 ! Element blocking is too difficult, as they obfuscate element names

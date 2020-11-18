@@ -1,57 +1,54 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.4.0
-! TimeUpdated: 2020-11-18T15:29:54Z
+! Version: 1.4.1
+! TimeUpdated: 2020-11-18T15:42:40Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
 
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
-! Element blocking is too difficult, as they obfuscate element names
-medium.com#%#if ( location.pathname === "/" ) { location.href = "https://medium.com/stream/network" };
+medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 
 ! Reclaim your agency, block Twitter recommendations, trends, and suggestions
-|https://twitter.com/i/api/2/guide.json
-|https://twitter.com/i/api/1.1/users/recommendations.json
+||twitter.com/i/api/2/guide.json
+||twitter.com/i/api/1.1/users/recommendations.json
 
 ! Reclaim your agency, redirect Twitter explore tab to Search tab
-twitter.com#%#if ( location.pathname === "/explore" ) { location.href = "https://twitter.com/search-advanced" };
-
-! Reclaim your agency, redirect the Youtube homepage to your Watch Later
-! Element blocking is too difficult, as they obfuscate element names
-www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://www.youtube.com/playlist?list=WL" };
-m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.href = "https://m.youtube.com/playlist?list=WL" };
-! Block home and trending sidebar links
-youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
-youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
-
-! Reclaim your agency, hide YouTube comments (they are just noise/interference now, memetic viruses competing for proliferation)
-youtube.com##ytd-comments
-
-! Reclaim your agency, hide the YouTube sidebar (it's intent is to provide distactions that capitalise your attention)
-youtube.com###secondary
+twitter.com#%#if ( location.pathname === "/explore" ) { location.pathname = '/search-advanced' };
 
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
-! Element blocking is too difficult, as they obfuscate element names
-twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
-mobile.twitter.com#%#if ( location.pathname === "/" ) { location.href = "https://twitter.com/messages" };
-! Hide any links to the Twitter homepage
-twitter.com##[href="/home"]
-mobile.twitter.com##[href="/home"]
+twitter.com#%#if ( location.pathname === "/" ) { location.pathname = 'twitter.com/messages' };
+
+! Reclaim your agency, hide any links to the Twitter homepage
+||twitter.com##[href="/home"]
+
+! Reclaim your agency, redirect the Youtube homepage to your Watch Later
+www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/playlist?list=WL' };
+m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/playlist?list=WL' };
+
+! Reclaim your agency, block links to YouTube home and within the trending sidebar
+||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
+||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
+
+! Reclaim your agency, hide YouTube comments (they are just noise/interference now, memetic viruses competing for proliferation)
+||youtube.com##ytd-comments
+
+! Reclaim your agency, hide the YouTube sidebar (it's intent is to provide distactions that capitalise your attention)
+||youtube.com###secondary
 
 ! Reclaim your agency, block GitHub social feeds and expand your activity
-github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
 github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)
-github.com##aside[aria-label=Explore]
+||github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
+||github.com##aside[aria-label=Explore]
 
 ! Reclaim your agency, block the useless vain product hunt notifications bell
-producthunt.com##a[class^=notifications]
+||producthunt.com##a[class^=notifications]
 
 ! Remove various vanity elements and attention grabbers from Instagram
-instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path
-instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2)
-instagram.com###react-root > section._9eogI.E3X2T > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:first-child
-instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.oJZym:first-child
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > div.v9tJq.VfzDr > header.vtbgv:first-child > section.zwlfE:last-child > ul.k9GMp:nth-child(2) > li.Y8-fY:nth-child(2)
-instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > section._1SP8R.j9XKR:first-child > div.COOzN:last-child > div._6Rvw2.DPiy6.Igw0E.IwRSH.eGOV_._4EzTm._22l1._49XvD.b2rUF.ZUqME:nth-child(3)
-instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s.Hz2lF > div.MWDvN.nfCOa > div.ctQZg:last-child > div._47KiJ > div.Fifk5:nth-child(4)
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2)
+||instagram.com###react-root > section._9eogI.E3X2T > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:first-child
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.oJZym:first-child
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > div.v9tJq.VfzDr > header.vtbgv:first-child > section.zwlfE:last-child > ul.k9GMp:nth-child(2) > li.Y8-fY:nth-child(2)
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > section._1SP8R.j9XKR:first-child > div.COOzN:last-child > div._6Rvw2.DPiy6.Igw0E.IwRSH.eGOV_._4EzTm._22l1._49XvD.b2rUF.ZUqME:nth-child(3)
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s.Hz2lF > div.MWDvN.nfCOa > div.ctQZg:last-child > div._47KiJ > div.Fifk5:nth-child(4)

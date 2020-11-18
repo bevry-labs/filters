@@ -1,10 +1,13 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.4.1
-! TimeUpdated: 2020-11-18T15:42:40Z
+! Version: 1.5.0
+! TimeUpdated: 2020-11-18T16:11:36Z
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
+
+! Reclaim your agency, block the Product Hunt notifications
+||producthunt.com##[href="/notifications"],[data-test="notification-bell"]
 
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };

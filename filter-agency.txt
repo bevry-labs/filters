@@ -1,7 +1,7 @@
 ! Title: Agency Filter
 ! Description: Disables DNS for websites, services, and companies whose business is attention
-! Version: 1.3.0
-! TimeUpdated: 2020-09-24T16:46:30Z
+! Version: 1.3.1
+! TimeUpdated: 1605716184
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org

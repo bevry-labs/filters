@@ -1,7 +1,7 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.5.0
-! TimeUpdated: 2020-11-18T16:11:36Z
+! Version: 1.5.1
+! TimeUpdated: 1605716130
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org

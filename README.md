@@ -18,8 +18,8 @@ All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) 
 
 If you don't trust me:
 
-- [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) the repository, and replace `balupton` with your own username, however be sure to keep the changes in sync.
-- or replace `master` with the latest commit to fix it to a particular version.
+- [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) the repository and replace `balupton` with your own username, however be sure to keep the changes in sync
+- or replace `master` with the latest commit to fix it to a particular version
 
 ## Inactive
 

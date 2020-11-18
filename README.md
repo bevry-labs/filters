@@ -28,13 +28,10 @@ If you don't trust me:
 Replaced by the [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) filter:
 
 - [GitHub Notifications](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-githubnotifications.txt)
+- [Facebook Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-facebookdrama.txt)
+- [Twitter Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-twitterdrama.txt)
 
-Replaced by [AdGuard](https://adguard.com):
+Replaced by [AdGuard](https://balupton.com/adguard):
 
 - [Feedly Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-activism.txt)
 - [Google Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-googleads.txt)
-
-Replaced by not using them:
-
-- [Facebook Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-facebookdrama.txt)
-- [Twitter Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-twitterdrama.txt)

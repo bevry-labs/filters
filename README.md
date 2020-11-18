@@ -1,5 +1,9 @@
 # AdGuard Filters
 
+These filters are made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across.
+
+If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recommend it to others!](https://balupton.com/adguard/affiliate)
+
 ## Active
 
 > These filters I use each day, and are actively maintained.
@@ -8,12 +12,14 @@
 - [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
 - [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-vanity.txt)
 
-Please submit a pull request by using the edit links above. [AdGuard maintains this help document on the available syntax.](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters) All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
+Please submit a pull request by using the edit links above.
+[AdGuard maintains this help document on the available syntax.](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).
+All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
 
 If you don't trust me:
 
 - [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) the repository, and replace `balupton` with your own username, however be sure to keep the changes in sync.
-- or replace `master` with the latest commit, to fix it to a particular version.
+- or replace `master` with the latest commit to fix it to a particular version.
 
 ## Inactive
 

@@ -54,7 +54,7 @@ async function main() {
 					// trim things that became only TLDs
 					if (line.includes(".") === false) return "";
 					// trim false positives
-					if (["github.com"].includes(line)) return "";
+					if (["github.com", "ocsp.digicert.com"].includes(line)) return "";
 					// return
 					return line;
 				})

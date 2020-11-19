@@ -58,6 +58,7 @@ async function main() {
 						[
 							// == safe domains ==
 							"github.com",
+							"raw.githubusercontent.com",
 							"adguard.com",
 							// == safe certificate providers ==
 							"ocsp.digicert.com",

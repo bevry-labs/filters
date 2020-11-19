@@ -4,14 +4,15 @@
   "description": "These filters are made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across.",
   "main": "filter-sin-compile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node filter-sin-compile.js",
+    "test": "node filter-sin-compile.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/balupton/filters.git"
   },
   "author": "Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
-  "license": "MIT",
+  "license": "UNLICENSE",
   "bugs": {
     "url": "https://github.com/balupton/filters/issues"
   },

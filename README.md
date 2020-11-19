@@ -10,6 +10,7 @@ If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recom
 
 - [Activism](https://raw.githubusercontent.com/balupton/filters/master/filter-activism.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-activism.txt)
 - [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
+- [Sin](https://raw.githubusercontent.com/balupton/filters/master/filter-sin.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-sin.txt)
 - [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-vanity.txt)
 
 Please submit a pull request by using the edit links above.

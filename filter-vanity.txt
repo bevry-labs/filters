@@ -1,6 +1,6 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.5.3
+! Version: 1.5.4
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
@@ -19,14 +19,14 @@ medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/net
 twitter.com#%#if ( location.pathname === "/explore" ) { location.pathname = '/search-advanced' };
 
 ! Reclaim your agency, redirect the Twitter homepage to your Messages
-twitter.com#%#if ( location.pathname === "/" ) { location.pathname = 'twitter.com/messages' };
+twitter.com#%#if ( location.pathname === "/" ) { location.pathname = '/messages' };
 
 ! Reclaim your agency, hide any links to the Twitter homepage
 ||twitter.com##[href="/home"]
 
 ! Reclaim your agency, redirect the Youtube homepage to your Watch Later
-www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/playlist?list=WL' };
-m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/playlist?list=WL' };
+www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
+m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
 
 ! Reclaim your agency, block links to YouTube home and within the trending sidebar
 ||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child

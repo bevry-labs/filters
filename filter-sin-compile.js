@@ -32,7 +32,7 @@ const meta = [
 ].join("\n");
 
 async function main() {
-	const data = await fs.readFile("./filter-sin-input.txt", "utf-8");
+	const data = await fs.readFile("./filter-sin.txt", "utf-8");
 
 	let entries = list
 		// remove duplicates
@@ -42,15 +42,19 @@ async function main() {
 				.map((line) => {
 					// trim www, ip, spaces, pathnames, protocol, port, rule formatting
 					line = line
-						.replace(/^(\s+|www\.|0\.0\.0\.0\s|.+?\/\/|\|+)/g, "")
+						.replace(/^(\s+|www\.|0\.0\.0\.0\s|.+?\/\/|\|+)+/g, "")
 						.replace(/(\/.+|\^)$/g, "")
 						.replace(/\d*:\d*/g, "");
 					// trim comment
 					if (["#", "!", "*", "-"].includes(line[0])) return "";
 					// trim unknown
 					if (line.includes(" ")) return "";
-					// return line
-					return line.toLowerCase();
+					// lowercase
+					line = line.toLowerCase();
+					// trim things that became only TLDs
+					if (line.includes(".") === false) return "";
+					// return
+					return line;
 				})
 				// trim empty
 				.filter((i) => i)

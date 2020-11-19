@@ -54,7 +54,18 @@ async function main() {
 					// trim things that became only TLDs
 					if (line.includes(".") === false) return "";
 					// trim false positives
-					if (["github.com", "ocsp.digicert.com", "adguard.com"].includes(line))
+					if (
+						[
+							// == safe domains ==
+							"github.com",
+							"adguard.com",
+							// == safe certificate providers ==
+							"ocsp.digicert.com",
+							// == safe ip addresses ==
+							// github.io / kryptco.github.io
+							"185.199.111.153",
+						].includes(line)
+					)
 						return "";
 					// return
 					return line;

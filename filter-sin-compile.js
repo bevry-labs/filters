@@ -61,8 +61,12 @@ async function main() {
 							"raw.githubusercontent.com",
 							"adguard.com",
 							"primevideo.com",
-							// == safe certificate providers ==
+							// == safe certificate providers and cdns ==
 							"ocsp.digicert.com",
+							"phicdn.net",
+							"alibaba-inc.com",
+							"trustedsite.com",
+							"elasticbeanstalk.com",
 							// == safe ip addresses ==
 							// github.io / kryptco.github.io
 							"185.199.111.153",

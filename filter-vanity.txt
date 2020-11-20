@@ -8,7 +8,6 @@
 ! Reclaim your agency, block Product Hunt notifications
 ||producthunt.com##[href*=notification],[data-test*=notification],[class*=notification],[title=Notifications]
 
-
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 

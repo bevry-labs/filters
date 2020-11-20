@@ -60,6 +60,7 @@ async function main() {
 							"github.com",
 							"raw.githubusercontent.com",
 							"adguard.com",
+							"primevideo.com",
 							// == safe certificate providers ==
 							"ocsp.digicert.com",
 							// == safe ip addresses ==

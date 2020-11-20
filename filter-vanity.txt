@@ -1,12 +1,13 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.5.4
+! Version: 1.5.5
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
 
-! Reclaim your agency, block the Product Hunt notifications
-||producthunt.com##[href="/notifications"],[data-test="notification-bell"]
+! Reclaim your agency, block Product Hunt notifications
+||producthunt.com##[href*=notification],[data-test*=notification],[class*=notification],[title=Notifications]
+
 
 ! Reclaim your agency, redirect the Medium homepage to the Medium network stream
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
@@ -42,9 +43,6 @@ m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pat
 github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)
 ||github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
 ||github.com##aside[aria-label=Explore]
-
-! Reclaim your agency, block the useless vain product hunt notifications bell
-||producthunt.com##a[class^=notifications]
 
 ! Remove various vanity elements and attention grabbers from Instagram
 ||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path

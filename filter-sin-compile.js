@@ -61,6 +61,7 @@ async function main() {
 							"raw.githubusercontent.com",
 							"adguard.com",
 							"primevideo.com",
+							"herokuapp.com",
 							// == safe certificate providers and cdns ==
 							"ocsp.digicert.com",
 							"phicdn.net",

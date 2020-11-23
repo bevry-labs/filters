@@ -57,17 +57,19 @@ async function main() {
 					if (
 						[
 							// == safe domains ==
+							"adguard.com",
+							"nodejs.org",
+							// == safe providers, cdns, and other infrastructure ==
 							"github.com",
 							"raw.githubusercontent.com",
-							"adguard.com",
-							"primevideo.com",
+							"alibaba-inc.com",
+							"elasticbeanstalk.com",
 							"herokuapp.com",
-							// == safe certificate providers and cdns ==
+							"kxcdn.com",
 							"ocsp.digicert.com",
 							"phicdn.net",
-							"alibaba-inc.com",
+							"primevideo.com",
 							"trustedsite.com",
-							"elasticbeanstalk.com",
 							// == safe ip addresses ==
 							// github.io / kryptco.github.io
 							"185.199.111.153",

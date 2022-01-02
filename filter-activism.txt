@@ -1,6 +1,6 @@
 ! Title: Activism Filter
 ! Description: Reclaim your agency, block activism banners
-! Version: 1.2.6
+! Version: 1.3.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
@@ -13,3 +13,4 @@
 
 ! misc
 djangoproject.com##div#billboard
+syncthing.net##div.alert

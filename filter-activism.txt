@@ -14,3 +14,6 @@
 ! misc
 djangoproject.com##div#billboard
 syncthing.net##div.alert
+||imgs.xkcd.com/news/blm.png$image
+www.electronjs.org##.announcement-banner
+linktr.ee##.cLFDFA.hzGaqJ.CauseBannerContainer__Container-sc-17rmgvo-0.sc-bdfBwQ

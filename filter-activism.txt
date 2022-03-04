@@ -1,6 +1,6 @@
 ! Title: Activism Filter
 ! Description: Reclaim your agency, block activism banners
-! Version: 1.3.0
+! Version: 1.3.1
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/balupton/filters
 ! License: https://unlicense.org
@@ -17,3 +17,6 @@ syncthing.net##div.alert
 ||imgs.xkcd.com/news/blm.png$image
 www.electronjs.org##.announcement-banner
 linktr.ee##.cLFDFA.hzGaqJ.CauseBannerContainer__Container-sc-17rmgvo-0.sc-bdfBwQ
+
+github.com##.js-notice.color-bg-default.color-border-muted.pb-3.mb-4.rounded-2.border
+||pastebin.com/themes/pastebin/img/no_war_ukraine.jpeg$image

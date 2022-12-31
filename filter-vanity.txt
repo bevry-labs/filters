@@ -1,52 +1,52 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo.
-! Version: 1.6.0
+! Version: 1.7.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
 
-! Reclaim your agency, block DuoLingo gamification
+! Reclaim your agency.
+
+! DuoLingo: hide gamification
 ||preview.duolingo.com,duolingo.com##div[style^="--sidebar"],div[data-test="streak-menu"],div[data-test="lingot-menu"],a[data-test="shop-nav"]
 
-! Reclaim your agency, block Product Hunt notifications
+! Product Hunt: hide notifications
 ||producthunt.com##[href*=notification],[data-test*=notification],[class*=notification],[title=Notifications]
 
-! Reclaim your agency, redirect the Medium homepage to the Medium network stream
+! Medium: redirect homepage to network stream
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 
-! Reclaim your agency, block Twitter recommendations, trends, and suggestions
+! Twitter: hide homepage, notifications, recommendations, trends, suggestions
+||twitter.com##[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"]
 ||twitter.com/i/api/2/guide.json
 ||twitter.com/i/api/1.1/users/recommendations.json
 
-! Reclaim your agency, redirect Twitter explore tab to Search tab
+! Twitter: redirect explore to search
 twitter.com#%#if ( location.pathname === "/explore" ) { location.pathname = '/search-advanced' };
 
-! Reclaim your agency, redirect the Twitter homepage to your Messages
-twitter.com#%#if ( location.pathname === "/" ) { location.pathname = '/messages' };
+! Twitter: redirect homepage and notifications to messages
+twitter.com#%#if ( ['/', '/notifications'].includes(location.pathname) ) { location.pathname = '/messages' };
 
-! Reclaim your agency, hide any links to the Twitter homepage
-||twitter.com##[href="/home"]
-
-! Reclaim your agency, redirect the Youtube homepage to your Watch Later
+! YouTube: redirect homepage to watch later
 www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
 m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
 
-! Reclaim your agency, block links to YouTube home and within the trending sidebar
+! YouTube: hide links to home and within the trending sidebar
 ||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
 ||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
 
-! Reclaim your agency, hide YouTube comments (they are just noise/interference now, memetic viruses competing for proliferation)
+! YouTube: hide comments (they are just noise/interference now, memetic viruses competing for proliferation)
 ||youtube.com##ytd-comments
 
-! Reclaim your agency, hide the YouTube sidebar (it's intent is to provide distactions that capitalise your attention)
+! YouTube: hide sidebar (it's intent is to provide distactions that capitalise your attention)
 ||youtube.com###secondary
 
-! Reclaim your agency, block GitHub social feeds and expand your activity
+! GitHub: hide social feeds and expand your activity
 github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)
 ||github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
 ||github.com##aside[aria-label=Explore]
 
-! Remove various vanity elements and attention grabbers from Instagram
+! Instagram: remove various vanity elements and attention grabbers
 ||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path
 ||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2)
 ||instagram.com###react-root > section._9eogI.E3X2T > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:first-child

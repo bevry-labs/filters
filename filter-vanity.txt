@@ -1,6 +1,6 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo.
-! Version: 1.7.1
+! Version: 1.7.2
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
@@ -17,7 +17,7 @@
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 
 ! Twitter: hide followers/following, homepage, explore, notifications, trends, suggestions, and vanity metrics
-twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"]
+twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"],[aria-label*="Share"]
 ||twitter.com/i/api/2/guide.json
 ||twitter.com/i/api/1.1/users/recommendations.json
 

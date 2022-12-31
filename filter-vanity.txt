@@ -17,7 +17,7 @@
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 
 ! Twitter: hide followers/following, homepage, explore, notifications, trends, suggestions, and vanity metrics
-||twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"]
+twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"]
 ||twitter.com/i/api/2/guide.json
 ||twitter.com/i/api/1.1/users/recommendations.json
 

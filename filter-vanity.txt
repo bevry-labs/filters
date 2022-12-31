@@ -1,5 +1,5 @@
 ! Title: Vanity Filter
-! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo
+! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo.
 ! Version: 1.6.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters

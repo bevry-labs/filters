@@ -1,7 +1,7 @@
 {
   "name": "filters",
   "version": "1.0.0",
-  "description": "These filters are made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across.",
+  "description": "Adblock/AdGuard filters for various self-empowerment",
   "main": "filter-sin-compile.js",
   "scripts": {
     "start": "node filter-sin-compile.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/balupton/filters.git"
+    "url": "git+https://github.com/bevry-labs/filters.git"
   },
   "author": "Benjamin Lupton <b@lupton.cc> (https://balupton.com)",
   "license": "UNLICENSE",
   "bugs": {
-    "url": "https://github.com/balupton/filters/issues"
+    "url": "https://github.com/bevry-labs/filters/issues"
   },
-  "homepage": "https://github.com/balupton/filters#readme",
+  "homepage": "https://github.com/bevry-labs/filters#readme",
   "dependencies": {
     "@bevry/list": "^1.0.0"
   }

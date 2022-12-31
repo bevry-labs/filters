@@ -24,7 +24,7 @@ const credits = [
 
 const meta = [
 	"! Title: Sin Filter",
-	"! Description: Disables malware/porn/piracy/gambling",
+	"! Description: Disables DNS for malware/porn/piracy/gambling.",
 	`! Version: 1.0.${now.getTime()}`,
 	"! Expires: 1 hour (update frequency)",
 	"! Homepage: https://github.com/bevry-labs/filters",

@@ -6,16 +6,6 @@ This repository contains filters made for [AdGuard](https://balupton.com/adguard
 
 These filters are actively maintained and used each day.
 
-### Activism Filter
-
-Reclaim your agency, block activism banners.
-[View.](https://github.com/bevry-labs/filters/blob/master/filter-activism.txt)
-[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-activism.txt)
-
-```
-https://raw.githubusercontent.com/bevry-labs/filters/master/filter-activism.txt
-```
-
 ### Agency Filter
 
 Disables DNS for websites, services, and companies whose business is attention.
@@ -26,9 +16,19 @@ Disables DNS for websites, services, and companies whose business is attention.
 https://raw.githubusercontent.com/bevry-labs/filters/master/filter-agency.txt
 ```
 
+### Cult Filter
+
+Disables cultic prescriptions, such as banners related to activism, flag waving/allegiance, identity, sanctimony, etc.
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-cult.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-cult.txt)
+
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-cult.txt
+```
+
 ### Sin Filter
 
-Disables malware/porn/piracy/gambling.
+Disables DNS for malware/porn/piracy/gambling.
 [View.](https://github.com/bevry-labs/filters/blob/master/filter-sin.txt)
 [Edit.](https://github.com/bevry-labs/filters/edit/master/filter-sin.txt)
 

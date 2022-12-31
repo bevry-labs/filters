@@ -1,5 +1,5 @@
-! Title: Activism Filter
-! Description: Reclaim your agency, block activism banners
+! Title: Cult Filter
+! Description: Disables cultic prescriptions, such as banners related to activism, flag waving/allegiance, identity, sanctimony, etc.
 ! Version: 1.4.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters

@@ -27,7 +27,7 @@ const meta = [
 	"! Description: Disables malware/porn/piracy/gambling",
 	`! Version: 1.0.${now.getTime()}`,
 	"! Expires: 1 hour (update frequency)",
-	"! Homepage: https://github.com/balupton/filters",
+	"! Homepage: https://github.com/bevry-labs/filters",
 	"! License: https://unlicense.org",
 ].join("\n");
 

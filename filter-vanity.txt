@@ -1,9 +1,12 @@
 ! Title: Vanity Filter
-! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium
-! Version: 1.5.5
+! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo
+! Version: 1.6.0
 ! Expires: 1 hour (update frequency)
-! Homepage: https://github.com/balupton/filters
+! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
+
+! Reclaim your agency, block DuoLingo gamification
+||preview.duolingo.com,duolingo.com##div[style^="--sidebar"],div[data-test="streak-menu"],div[data-test="lingot-menu"],a[data-test="shop-nav"]
 
 ! Reclaim your agency, block Product Hunt notifications
 ||producthunt.com##[href*=notification],[data-test*=notification],[class*=notification],[title=Notifications]

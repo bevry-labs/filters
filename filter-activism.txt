@@ -2,7 +2,7 @@
 ! Description: Reclaim your agency, block activism banners
 ! Version: 1.4.0
 ! Expires: 1 hour (update frequency)
-! Homepage: https://github.com/balupton/filters
+! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
 
 ! This snippet finds identifiable child elements, then removes all parents of which that was the only child. This is to ensure that associated parent elements and their styling are purged. It repeats this every second.

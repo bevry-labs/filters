@@ -1,38 +1,74 @@
 # AdGuard Filters
 
-These filters are made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across.
+This repository contains filters made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across. If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recommend it to others!](https://balupton.com/adguard/affiliate)
 
-If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recommend it to others!](https://balupton.com/adguard/affiliate)
+## Active Filters
 
-## Active
+These filters are actively maintained and used each day.
 
-> These filters I use each day, and are actively maintained.
+### Activism Filter
 
-- [Activism](https://raw.githubusercontent.com/balupton/filters/master/filter-activism.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-activism.txt)
-- [Agency](https://raw.githubusercontent.com/balupton/filters/master/filter-agency.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-agency.txt)
-- [Sin](https://raw.githubusercontent.com/balupton/filters/master/filter-sin.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-sin.txt)
-- [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) - [edit](https://github.com/balupton/filters/edit/master/filter-vanity.txt)
+Reclaim your agency, block activism banners.
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-activism.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-activism.txt)
 
-Please submit a pull request by using the edit links above.
-[AdGuard maintains this help document on the available syntax](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).
-All changes [licensed](https://github.com/balupton/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-activism.txt
+```
 
-If you don't trust me:
+### Agency Filter
 
-- [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) the repository and replace `balupton` with your own username, however be sure to keep the changes in sync
-- or replace `master` with the latest commit to fix it to a particular version
+Disables DNS for websites, services, and companies whose business is attention.
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-agency.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-agency.txt)
 
-## Inactive
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-agency.txt
+```
 
-> These filters I no longer care to maintain, as I have no need for them.
+### Sin Filter
 
-Replaced by the [Vanity](https://raw.githubusercontent.com/balupton/filters/master/filter-vanity.txt) filter:
+Disables malware/porn/piracy/gambling.
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-sin.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-sin.txt)
 
-- [GitHub Notifications](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-githubnotifications.txt)
-- [Facebook Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-facebookdrama.txt)
-- [Twitter Drama](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-twitterdrama.txt)
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-sin.txt
+```
 
-Replaced by [AdGuard](https://balupton.com/adguard):
+### Vanity Filter
 
-- [Feedly Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-activism.txt)
-- [Google Ads](https://github.com/balupton/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-googleads.txt)
+Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo.
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-vanity.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-vanity.txt)
+
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-vanity.txt
+```
+
+## Usage
+
+Copy the URL of the filter you wish to subscribe to, add to AdGuard via "Add a Custom Filter" and paste in the URL. Enable `Trusted Filter` to receive automatic updates.
+
+Note that any filter allows us to inject anything into any website, so if you do not trust us, then view the rules you are adding and disable `Trusted Filter` to prevent automatic updates. Alternatively, you can [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) this repository and replace `bevry-labs` with your own username.
+
+## Contributing
+
+[AdGuard's syntax documentation](https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters).
+
+You can submit changes and create a pull request by using the edit links earlier.
+
+Everything is [licensed](https://github.com/bevry-labs/filters/blob/master/LICENSE) under [The Unlicense](https://unlicense.org).
+
+## Archived
+
+Replaced by the [Vanity Filter](#vanity-filter):
+
+-   [GitHub Notifications](https://github.com/bevry-labs/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-githubnotifications.txt)
+-   [Facebook Drama](https://github.com/bevry-labs/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-facebookdrama.txt)
+-   [Twitter Drama](https://github.com/bevry-labs/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-twitterdrama.txt)
+
+Replaced by [AdGuard](https://balupton.com/adguard)'s builtin filters:
+
+-   [Feedly Ads](https://github.com/bevry-labs/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-activism.txt)
+-   [Google Ads](https://github.com/bevry-labs/filters/blob/92cd32b642cd4456765757f9741f78309c11eb0a/filter-googleads.txt)

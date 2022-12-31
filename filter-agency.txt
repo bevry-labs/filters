@@ -2,7 +2,7 @@
 ! Description: Disables DNS for websites, services, and companies whose business is attention
 ! Version: 1.3.2
 ! Expires: 1 hour (update frequency)
-! Homepage: https://github.com/balupton/filters
+! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
 
 ||538.com^

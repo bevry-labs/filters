@@ -1,6 +1,6 @@
 # AdGuard Filters
 
-This repository contains filters made for [AdGuard](https://balupton.com/adguard), which is the best adblocker I have ever come across. If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recommend it to others!](https://balupton.com/adguard/affiliate)
+This repository contains filters made for [AdGuard](https://balupton.com/adguard). If you also like [AdGuard](https://balupton.com/adguard) as much as I do, [recommend it to others!](https://balupton.com/adguard/affiliate)
 
 ## Active Filters
 

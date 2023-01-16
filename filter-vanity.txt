@@ -1,6 +1,6 @@
 ! Title: Vanity Filter
 ! Description: Disables vanity and addictive elements on Instagram, Twitter, YouTube, Medium, DuoLingo.
-! Version: 1.7.2
+! Version: 1.8.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
@@ -16,8 +16,8 @@
 ! Medium: redirect homepage to network stream
 medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
 
-! Twitter: hide followers/following, homepage, explore, notifications, trends, suggestions, and vanity metrics
-twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"],[aria-label*="Share"]
+! Twitter: hide followers/following, homepage, explore, notifications, trends, suggestions, vanity metrics, twitter blue
+||twitter.com##[href*="/follow"],[href="/home"],[href="/explore"],[href="/notifications"],[aria-label="Timeline: Trending now"],[aria-label="Who to follow"],[href*="promote"],[href*="analytics"],[aria-label*="Reply"],[aria-label*="Retweet"],[aria-label*="Like"],[aria-label*="Share"],[href*="twitter_blue"]
 ||twitter.com/i/api/2/guide.json
 ||twitter.com/i/api/1.1/users/recommendations.json
 
@@ -28,8 +28,7 @@ twitter.com#%#if ( location.pathname === "/explore" ) { location.pathname = '/se
 twitter.com#%#if ( ['/', '/notifications'].includes(location.pathname) ) { location.pathname = '/messages' };
 
 ! YouTube: redirect homepage to watch later
-www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
-m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
+||youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
 
 ! YouTube: hide links to home and within the trending sidebar
 ||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
@@ -40,6 +39,10 @@ m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pat
 
 ! YouTube: hide sidebar (it's intent is to provide distactions that capitalise your attention)
 ||youtube.com###secondary
+
+! YouTube: hide view counts
+||youtube.com###metadata-line.ytd-grid-video-renderer>.ytd-grid-video-renderer:first-of-type
+||youtube.com###metadata-line.ytd-grid-video-renderer>.ytd-grid-video-renderer:not(:first-of-type)::before
 
 ! GitHub: hide social feeds and expand your activity
 github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)

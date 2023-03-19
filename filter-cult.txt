@@ -25,3 +25,5 @@ syncthing.net##div.alert
 www.electronjs.org##.announcement-banner
 www.hostinger.com.ar##.ukraine-banner
 www.scamadviser.com###bylp-popup-overlay
+react.dev##a:contains(/[support|help].*ukraine/gi):upward(1)
+webdriver.io##*[role=banner]

@@ -1,6 +1,6 @@
 ! Title: Cult Filter
 ! Description: Disables cultic prescriptions, such as banners related to activism, flag waving/allegiance, identity, sanctimony, etc.
-! Version: 1.7.0
+! Version: 1.7.1
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters
 ! License: https://unlicense.org
@@ -36,6 +36,7 @@ youtube.com##ytd-rich-section-renderer
 youtube.com###sections>ytd-guide-section-renderer:nth-child(2)
 youtube.com###sections>ytd-guide-section-renderer:nth-child(3)
 youtube.com###sections>ytd-guide-section-renderer:nth-child(4)
+youtube.com##.videowall-endscreen
 
 ! These rules remove degeneracy from porn websites
 ||app.plex.tv###plex div[class^="VirtualHubScroller-hub-"]:has(h2[title="Reviews"])$important

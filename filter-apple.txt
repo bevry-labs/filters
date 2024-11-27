@@ -1,0 +1,23 @@
+! Title: Apple Whitelist Filter
+! Description: Disables DNS blocking for Apple controlled domains: https://support.apple.com/en-au/101555
+! Version: 1.0.0
+! Expires: 1 hour (update frequency)
+! Homepage: https://github.com/bevry-labs/filters
+! License: https://unlicense.org
+
+@@||apple-cloudkit.com^
+@@||apple-livephotoskit.com^
+@@||apple-mapkit.com^
+@@||apple-relay.cloudflare.com^
+@@||apple-relay.fastly-edge.com^
+@@||apple.com^
+@@||appleschoolcontent.com^
+@@||apzones.com^
+@@||axm-usercontent-apple.com^
+@@||cdn-apple.com^
+@@||cp4.cloudflare.com^
+@@||digicert.com^
+@@||icloud-content.com^
+@@||icloud.com^
+@@||mzstatic.com^
+@@||vertexsmb.com^

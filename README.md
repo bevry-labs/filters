@@ -16,6 +16,16 @@ Disables DNS for websites, services, and companies whose business is attention.
 https://raw.githubusercontent.com/bevry-labs/filters/master/filter-agency.txt
 ```
 
+### Apple Filter
+
+Disables DNS blocking for [Apple controlled domains](https://support.apple.com/en-au/101555).
+[View.](https://github.com/bevry-labs/filters/blob/master/filter-apple.txt)
+[Edit.](https://github.com/bevry-labs/filters/edit/master/filter-apple.txt)
+
+```
+https://raw.githubusercontent.com/bevry-labs/filters/master/filter-apple.txt
+```
+
 ### Cult Filter
 
 Disables cultic prescriptions, such as banners related to activism, flag waving/allegiance, identity, sanctimony, etc.

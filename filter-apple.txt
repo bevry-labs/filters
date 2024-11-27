@@ -1,5 +1,5 @@
 ! Title: Apple Whitelist Filter
-! Description: Disables DNS blocking for Apple controlled domains: https://support.apple.com/en-au/101555
+! Description: Whitelists Apple controlled domains: https://support.apple.com/en-au/101555
 ! Version: 1.0.0
 ! Expires: 1 hour (update frequency)
 ! Homepage: https://github.com/bevry-labs/filters
